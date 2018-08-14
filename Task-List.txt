@@ -1,0 +1,24 @@
+--------------------
+8Aug2018
+--------------------
+Write a python code to perform below:-
+
+Press 1 to ask matrix dimension  from the user  and element values
+Press 2 to print all possible matrix from given number element
+Press 3 to save all your  numpy  array data in a file
+Press 4 to print all your file data in numpy format
+Press 5 to apply all possible reshape functions
+
+Print all possible matix with given number of element
+
+
+--------------------
+14Aug2018
+--------------------
+Write python code which will perform this, 
+
+1) Download img form social media using its api link, 
+2) Open using opencv
+3) Print only 480x640, ignore the rest image part
+
+Draw circle, Polygon, Text and Rectange in an image
