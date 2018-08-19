@@ -50,7 +50,7 @@ cv2.line(crop_img,(100,100),(190,240),(0,0,255),2)
 cv2.rectangle(crop_img,(33,11),(300,300), (255,0,0),4)
 
 # Draw Circle
-# imgeVar, center,  radius, color
+# imgeVar, center,  radius, color, width
 cv2.circle(crop_img,(120,160),50,(0,255,0),10)
 
 # Show image

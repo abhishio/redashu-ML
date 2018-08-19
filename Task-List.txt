@@ -22,3 +22,16 @@ Write python code which will perform this,
 3) Print only 480x640, ignore the rest image part
 
 Draw circle, Polygon, Text and Rectange in an image
+
+Ref: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_core/py_basic_ops/py_basic_ops.html
+
+
+--------------------
+14Aug2018
+--------------------
+
+1) Write Program to perform camera actions
+2) Capture a camera for specific time period
+3) Save camera image to ec2 machine  and server that image from apache/nginx in the nginx directory. And should be served through URl
+3) Perform Step 3 for video
+4) Read about Face and Eye Detection for Future
