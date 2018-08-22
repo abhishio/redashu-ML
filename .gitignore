@@ -1,6 +1,11 @@
 # Editor Extension
 .vscode
 
+# Video and Audio
+*.avi
+*.mp4
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
