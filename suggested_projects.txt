@@ -1,0 +1,1 @@
+1. Create a program to record only the motion part and save the same in a file as well as show video in real time. 

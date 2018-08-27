@@ -2,6 +2,7 @@
 """Code To Detect Motion from Camera"""
 
 import cv2
+import numpy as np
 
 # Detecting webcam
 # arg means camera number -- If multiple camera
@@ -29,7 +30,6 @@ def img_diff(x_var, y_var, z_var):
 
     return img_diff3
 
-
 # start taking pictures
 # status,frame=cam.read()
 # Take frame only
@@ -46,22 +46,23 @@ cam_bw3 = cv2.cvtColor(take3, cv2.COLOR_BGR2GRAY)
 while True:
     # Calling function to Detect
     img_det = img_diff(cam_bw1, cam_bw2, cam_bw3)
-    type(img_det)
+    img_det2 = img_diff2(cam_bw1, cam_bw2, cam_bw3)
+
+    #temp = np.full((640, 640), 0)
+    #print("Zeros: ", np.count_nonzero(temp))
+
     cv2.imshow('Detect', img_det)
 
     # Continue capturing
     status, frame = cam.read()
     # Show
-    cv2.imshow('Original', frame)
+    #cv2.imshow('Original', frame)
     # Update the Image Difference Variable
     cam_bw1 = cam_bw2
     cam_bw2 = cam_bw3
     cam_bw3 = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Show
-    #cv2.imshow('MyCam1', cam_bw1)
-    #cv2.imshow('MyCam2', cam_bw1)
-    #cv2.imshow('MyCam3', cam_bw1)
 
     # To Close the camera
     # 0xFF: OpenCV Key Press Support
