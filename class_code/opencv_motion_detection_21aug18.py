@@ -46,7 +46,6 @@ cam_bw3 = cv2.cvtColor(take3, cv2.COLOR_BGR2GRAY)
 while True:
     # Calling function to Detect
     img_det = img_diff(cam_bw1, cam_bw2, cam_bw3)
-    img_det2 = img_diff2(cam_bw1, cam_bw2, cam_bw3)
 
     #temp = np.full((640, 640), 0)
     #print("Zeros: ", np.count_nonzero(temp))

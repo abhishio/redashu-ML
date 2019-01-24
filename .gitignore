@@ -6,6 +6,9 @@
 *.mp4
 *.png
 
+# My Exp
+exp_code/**
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

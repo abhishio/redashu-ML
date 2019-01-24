@@ -35,3 +35,16 @@ Ref: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_cor
 3) Save camera image to ec2 machine  and server that image from apache/nginx in the nginx directory. And should be served through URl
 3) Perform Step 3 for video
 4) Read about Face and Eye Detection for Future
+
+--------------------
+29Aug2018
+--------------------
+
+1) Write a Program to detect a face from Camera and search the face on the Google.
+
+--------------------
+29Aug2018
+--------------------
+
+1) Use facetime (kairos) to detect face and recognize it. ENROLL & RECOGNISE
+2) Python program to upload image to ec2/s3 and use the url to use with kairos
